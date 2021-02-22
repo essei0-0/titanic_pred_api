@@ -1,0 +1,2495 @@
+2021-02-15 20:04:14,171:INFO:Initializing predict_model()
+2021-02-15 20:04:14,175:INFO:predict_model(estimator=LGBMClassifier(bagging_fraction=0.6, bagging_freq=7, feature_fraction=0.5,
+               learning_rate=0.337, min_child_samples=35, min_split_gain=0.2,
+               n_estimators=70, num_leaves=70, random_state=5928, reg_alpha=0.3,
+               reg_lambda=0.5), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-15 20:04:14,183:INFO:Checking exceptions
+2021-02-15 20:04:14,185:INFO:Preloading libraries
+2021-02-15 20:04:14,186:ERROR:Pipeline not found. Exception:
+2021-02-15 20:04:14,204:ERROR:Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pycaret/internal/tabular.py", line 8318, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-02-15 20:44:46,550:INFO:Initializing load_model()
+2021-02-15 20:44:46,552:INFO:load_model(model_name=./lgbm.pkl, platform=None, authentication=None, verbose=True)
+2021-02-15 20:45:03,949:INFO:Initializing load_model()
+2021-02-15 20:45:03,951:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-15 20:45:08,182:INFO:Initializing predict_model()
+2021-02-15 20:45:08,186:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-15 20:45:08,188:INFO:Checking exceptions
+2021-02-15 20:45:08,189:INFO:Preloading libraries
+2021-02-15 20:46:07,893:INFO:Initializing load_model()
+2021-02-15 20:46:07,895:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-15 20:46:09,594:INFO:Initializing predict_model()
+2021-02-15 20:46:09,601:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-15 20:46:09,605:INFO:Checking exceptions
+2021-02-15 20:46:09,606:INFO:Preloading libraries
+2021-02-15 20:46:13,883:INFO:Initializing predict_model()
+2021-02-15 20:46:13,884:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-15 20:46:13,885:INFO:Checking exceptions
+2021-02-15 20:46:13,886:INFO:Preloading libraries
+2021-02-16 17:20:33,870:INFO:Initializing load_model()
+2021-02-16 17:20:33,877:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:26:26,821:INFO:Initializing load_model()
+2021-02-16 18:26:26,824:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:26:29,913:INFO:Initializing load_model()
+2021-02-16 18:26:29,916:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:41:12,173:INFO:Initializing predict_model()
+2021-02-16 18:41:12,198:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 18:41:12,202:INFO:Checking exceptions
+2021-02-16 18:41:12,215:INFO:Preloading libraries
+2021-02-16 18:45:10,284:INFO:Initializing predict_model()
+2021-02-16 18:45:10,293:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 18:45:10,299:INFO:Checking exceptions
+2021-02-16 18:45:10,328:INFO:Preloading libraries
+2021-02-16 18:48:16,063:INFO:Initializing load_model()
+2021-02-16 18:48:16,064:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:48:24,270:INFO:Initializing predict_model()
+2021-02-16 18:48:24,274:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 18:48:24,279:INFO:Checking exceptions
+2021-02-16 18:48:24,280:INFO:Preloading libraries
+2021-02-16 18:48:47,139:INFO:Initializing load_model()
+2021-02-16 18:48:47,140:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:48:56,545:INFO:Initializing load_model()
+2021-02-16 18:48:56,546:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-16 18:48:58,952:INFO:Initializing predict_model()
+2021-02-16 18:48:58,954:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 18:48:58,967:INFO:Checking exceptions
+2021-02-16 18:48:58,968:INFO:Preloading libraries
+2021-02-16 19:19:07,002:INFO:Initializing predict_model()
+2021-02-16 19:19:07,006:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 19:19:07,026:INFO:Checking exceptions
+2021-02-16 19:19:07,049:INFO:Preloading libraries
+2021-02-16 20:01:44,117:INFO:Initializing predict_model()
+2021-02-16 20:01:44,119:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:01:44,120:INFO:Checking exceptions
+2021-02-16 20:01:44,121:INFO:Preloading libraries
+2021-02-16 20:01:55,548:INFO:Initializing predict_model()
+2021-02-16 20:01:55,550:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:01:55,551:INFO:Checking exceptions
+2021-02-16 20:01:55,553:INFO:Preloading libraries
+2021-02-16 20:08:03,889:INFO:Initializing predict_model()
+2021-02-16 20:08:03,891:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:08:03,894:INFO:Checking exceptions
+2021-02-16 20:08:03,895:INFO:Preloading libraries
+2021-02-16 20:11:50,671:INFO:Initializing predict_model()
+2021-02-16 20:11:50,673:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:11:50,675:INFO:Checking exceptions
+2021-02-16 20:11:50,676:INFO:Preloading libraries
+2021-02-16 20:11:58,296:INFO:Initializing predict_model()
+2021-02-16 20:11:58,297:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:11:58,300:INFO:Checking exceptions
+2021-02-16 20:11:58,301:INFO:Preloading libraries
+2021-02-16 20:21:51,963:INFO:Initializing predict_model()
+2021-02-16 20:21:51,966:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:21:51,967:INFO:Checking exceptions
+2021-02-16 20:21:51,968:INFO:Preloading libraries
+2021-02-16 20:21:53,044:INFO:Initializing predict_model()
+2021-02-16 20:21:53,052:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-16 20:21:53,053:INFO:Checking exceptions
+2021-02-16 20:21:53,054:INFO:Preloading libraries
+2021-02-17 10:47:46,954:INFO:Initializing predict_model()
+2021-02-17 10:47:46,956:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:47:46,958:INFO:Checking exceptions
+2021-02-17 10:47:46,962:INFO:Preloading libraries
+2021-02-17 10:48:27,605:INFO:Initializing predict_model()
+2021-02-17 10:48:27,608:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:48:27,609:INFO:Checking exceptions
+2021-02-17 10:48:27,612:INFO:Preloading libraries
+2021-02-17 10:48:44,495:INFO:Initializing predict_model()
+2021-02-17 10:48:44,498:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:48:44,500:INFO:Checking exceptions
+2021-02-17 10:48:44,502:INFO:Preloading libraries
+2021-02-17 10:48:54,424:INFO:Initializing predict_model()
+2021-02-17 10:48:54,432:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:48:54,435:INFO:Checking exceptions
+2021-02-17 10:48:54,437:INFO:Preloading libraries
+2021-02-17 10:49:03,992:INFO:Initializing predict_model()
+2021-02-17 10:49:03,995:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:49:03,997:INFO:Checking exceptions
+2021-02-17 10:49:03,998:INFO:Preloading libraries
+2021-02-17 10:56:25,299:INFO:Initializing predict_model()
+2021-02-17 10:56:25,302:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:56:25,304:INFO:Checking exceptions
+2021-02-17 10:56:25,306:INFO:Preloading libraries
+2021-02-17 10:56:40,482:INFO:Initializing predict_model()
+2021-02-17 10:56:40,484:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:56:40,487:INFO:Checking exceptions
+2021-02-17 10:56:40,488:INFO:Preloading libraries
+2021-02-17 10:56:41,345:INFO:Initializing predict_model()
+2021-02-17 10:56:41,347:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:56:41,348:INFO:Checking exceptions
+2021-02-17 10:56:41,351:INFO:Preloading libraries
+2021-02-17 10:59:58,423:INFO:Initializing predict_model()
+2021-02-17 10:59:58,435:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 10:59:58,437:INFO:Checking exceptions
+2021-02-17 10:59:58,439:INFO:Preloading libraries
+2021-02-17 11:22:11,809:INFO:Initializing load_model()
+2021-02-17 11:22:11,811:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 11:22:37,088:INFO:Initializing load_model()
+2021-02-17 11:22:37,090:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 11:22:40,278:INFO:Initializing load_model()
+2021-02-17 11:22:40,280:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 11:22:55,793:INFO:Initializing predict_model()
+2021-02-17 11:22:55,795:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:22:55,797:INFO:Checking exceptions
+2021-02-17 11:22:55,799:INFO:Preloading libraries
+2021-02-17 11:23:31,807:INFO:Initializing predict_model()
+2021-02-17 11:23:31,808:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:23:31,809:INFO:Checking exceptions
+2021-02-17 11:23:31,810:INFO:Preloading libraries
+2021-02-17 11:26:57,384:INFO:Initializing predict_model()
+2021-02-17 11:26:57,387:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:26:57,388:INFO:Checking exceptions
+2021-02-17 11:26:57,390:INFO:Preloading libraries
+2021-02-17 11:26:58,758:INFO:Initializing predict_model()
+2021-02-17 11:26:58,761:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:26:58,763:INFO:Checking exceptions
+2021-02-17 11:26:58,764:INFO:Preloading libraries
+2021-02-17 11:44:49,838:INFO:Initializing predict_model()
+2021-02-17 11:44:49,850:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:44:49,851:INFO:Checking exceptions
+2021-02-17 11:44:49,852:INFO:Preloading libraries
+2021-02-17 11:44:58,532:INFO:Initializing predict_model()
+2021-02-17 11:44:58,535:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:44:58,536:INFO:Checking exceptions
+2021-02-17 11:44:58,537:INFO:Preloading libraries
+2021-02-17 11:52:01,930:INFO:Initializing predict_model()
+2021-02-17 11:52:01,932:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:52:01,933:INFO:Checking exceptions
+2021-02-17 11:52:01,934:INFO:Preloading libraries
+2021-02-17 11:55:43,636:INFO:Initializing predict_model()
+2021-02-17 11:55:43,660:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:55:43,676:INFO:Checking exceptions
+2021-02-17 11:55:43,700:INFO:Preloading libraries
+2021-02-17 11:55:46,668:INFO:Initializing predict_model()
+2021-02-17 11:55:46,669:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:55:46,671:INFO:Checking exceptions
+2021-02-17 11:55:46,673:INFO:Preloading libraries
+2021-02-17 11:56:45,844:INFO:Initializing predict_model()
+2021-02-17 11:56:45,849:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:56:45,866:INFO:Checking exceptions
+2021-02-17 11:56:45,880:INFO:Preloading libraries
+2021-02-17 11:56:50,270:INFO:Initializing predict_model()
+2021-02-17 11:56:50,272:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 11:56:50,286:INFO:Checking exceptions
+2021-02-17 11:56:50,288:INFO:Preloading libraries
+2021-02-17 16:35:37,103:INFO:Initializing predict_model()
+2021-02-17 16:35:37,158:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 16:35:37,161:INFO:Checking exceptions
+2021-02-17 16:35:37,165:INFO:Preloading libraries
+2021-02-17 17:28:02,982:INFO:Initializing predict_model()
+2021-02-17 17:28:02,988:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 17:28:02,989:INFO:Checking exceptions
+2021-02-17 17:28:02,992:INFO:Preloading libraries
+2021-02-17 17:28:10,935:INFO:Initializing predict_model()
+2021-02-17 17:28:10,948:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 17:28:10,951:INFO:Checking exceptions
+2021-02-17 17:28:10,961:INFO:Preloading libraries
+2021-02-17 18:02:08,397:INFO:Initializing predict_model()
+2021-02-17 18:02:08,404:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:02:08,406:INFO:Checking exceptions
+2021-02-17 18:02:08,409:INFO:Preloading libraries
+2021-02-17 18:02:13,429:INFO:Initializing predict_model()
+2021-02-17 18:02:13,442:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:02:13,459:INFO:Checking exceptions
+2021-02-17 18:02:13,467:INFO:Preloading libraries
+2021-02-17 18:11:20,907:INFO:Initializing predict_model()
+2021-02-17 18:11:20,915:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:11:20,918:INFO:Checking exceptions
+2021-02-17 18:11:20,919:INFO:Preloading libraries
+2021-02-17 18:15:23,540:INFO:Initializing load_model()
+2021-02-17 18:15:23,543:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 18:15:26,950:INFO:Initializing load_model()
+2021-02-17 18:15:26,951:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 18:15:38,089:INFO:Initializing predict_model()
+2021-02-17 18:15:38,100:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:15:38,104:INFO:Checking exceptions
+2021-02-17 18:15:38,121:INFO:Preloading libraries
+2021-02-17 18:18:16,372:INFO:Initializing load_model()
+2021-02-17 18:18:16,375:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 18:18:19,062:INFO:Initializing load_model()
+2021-02-17 18:18:19,064:INFO:load_model(model_name=./lgbm, platform=None, authentication=None, verbose=True)
+2021-02-17 18:18:29,392:INFO:Initializing predict_model()
+2021-02-17 18:18:29,403:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:18:29,409:INFO:Checking exceptions
+2021-02-17 18:18:29,410:INFO:Preloading libraries
+2021-02-17 18:36:14,787:INFO:Initializing predict_model()
+2021-02-17 18:36:14,789:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:36:14,791:INFO:Checking exceptions
+2021-02-17 18:36:14,797:INFO:Preloading libraries
+2021-02-17 18:52:56,586:INFO:Initializing predict_model()
+2021-02-17 18:52:56,602:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:52:56,607:INFO:Checking exceptions
+2021-02-17 18:52:56,612:INFO:Preloading libraries
+2021-02-17 18:53:23,947:INFO:Initializing predict_model()
+2021-02-17 18:53:23,955:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:53:23,979:INFO:Checking exceptions
+2021-02-17 18:53:23,988:INFO:Preloading libraries
+2021-02-17 18:56:17,702:INFO:Initializing predict_model()
+2021-02-17 18:56:17,706:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:56:17,711:INFO:Checking exceptions
+2021-02-17 18:56:17,713:INFO:Preloading libraries
+2021-02-17 18:56:42,764:INFO:Initializing predict_model()
+2021-02-17 18:56:42,771:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:56:42,776:INFO:Checking exceptions
+2021-02-17 18:56:42,780:INFO:Preloading libraries
+2021-02-17 18:57:01,131:INFO:Initializing predict_model()
+2021-02-17 18:57:01,135:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:57:01,143:INFO:Checking exceptions
+2021-02-17 18:57:01,149:INFO:Preloading libraries
+2021-02-17 18:57:19,632:INFO:Initializing predict_model()
+2021-02-17 18:57:19,637:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 18:57:19,638:INFO:Checking exceptions
+2021-02-17 18:57:19,640:INFO:Preloading libraries
+2021-02-17 19:00:44,196:INFO:Initializing predict_model()
+2021-02-17 19:00:44,203:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:00:44,205:INFO:Checking exceptions
+2021-02-17 19:00:44,208:INFO:Preloading libraries
+2021-02-17 19:04:19,571:INFO:Initializing predict_model()
+2021-02-17 19:04:19,574:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:04:19,576:INFO:Checking exceptions
+2021-02-17 19:04:19,578:INFO:Preloading libraries
+2021-02-17 19:05:27,642:INFO:Initializing predict_model()
+2021-02-17 19:05:27,646:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:05:27,647:INFO:Checking exceptions
+2021-02-17 19:05:27,649:INFO:Preloading libraries
+2021-02-17 19:05:51,607:INFO:Initializing predict_model()
+2021-02-17 19:05:51,608:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:05:51,612:INFO:Checking exceptions
+2021-02-17 19:05:51,616:INFO:Preloading libraries
+2021-02-17 19:12:32,350:INFO:Initializing predict_model()
+2021-02-17 19:12:32,355:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:12:32,372:INFO:Checking exceptions
+2021-02-17 19:12:32,373:INFO:Preloading libraries
+2021-02-17 19:12:43,552:INFO:Initializing predict_model()
+2021-02-17 19:12:43,559:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:12:43,563:INFO:Checking exceptions
+2021-02-17 19:12:43,565:INFO:Preloading libraries
+2021-02-17 19:12:58,370:INFO:Initializing predict_model()
+2021-02-17 19:12:58,374:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:12:58,375:INFO:Checking exceptions
+2021-02-17 19:12:58,377:INFO:Preloading libraries
+2021-02-17 19:13:28,018:INFO:Initializing predict_model()
+2021-02-17 19:13:28,025:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:13:28,075:INFO:Checking exceptions
+2021-02-17 19:13:28,083:INFO:Preloading libraries
+2021-02-17 19:14:00,020:INFO:Initializing predict_model()
+2021-02-17 19:14:00,042:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:14:00,052:INFO:Checking exceptions
+2021-02-17 19:14:00,056:INFO:Preloading libraries
+2021-02-17 19:14:17,917:INFO:Initializing predict_model()
+2021-02-17 19:14:17,918:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:14:17,919:INFO:Checking exceptions
+2021-02-17 19:14:17,921:INFO:Preloading libraries
+2021-02-17 19:14:34,066:INFO:Initializing predict_model()
+2021-02-17 19:14:34,068:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:14:34,070:INFO:Checking exceptions
+2021-02-17 19:14:34,073:INFO:Preloading libraries
+2021-02-17 19:14:48,789:INFO:Initializing predict_model()
+2021-02-17 19:14:48,791:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:14:48,792:INFO:Checking exceptions
+2021-02-17 19:14:48,793:INFO:Preloading libraries
+2021-02-17 19:15:57,142:INFO:Initializing predict_model()
+2021-02-17 19:15:57,145:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:15:57,146:INFO:Checking exceptions
+2021-02-17 19:15:57,147:INFO:Preloading libraries
+2021-02-17 19:16:23,265:INFO:Initializing predict_model()
+2021-02-17 19:16:23,267:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:16:23,271:INFO:Checking exceptions
+2021-02-17 19:16:23,285:INFO:Preloading libraries
+2021-02-17 19:16:35,630:INFO:Initializing predict_model()
+2021-02-17 19:16:35,632:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:16:35,633:INFO:Checking exceptions
+2021-02-17 19:16:35,634:INFO:Preloading libraries
+2021-02-17 19:18:48,835:INFO:Initializing predict_model()
+2021-02-17 19:18:48,838:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:18:48,839:INFO:Checking exceptions
+2021-02-17 19:18:48,841:INFO:Preloading libraries
+2021-02-17 19:44:01,079:INFO:Initializing predict_model()
+2021-02-17 19:44:01,085:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:44:01,087:INFO:Checking exceptions
+2021-02-17 19:44:01,089:INFO:Preloading libraries
+2021-02-17 19:44:52,082:INFO:Initializing predict_model()
+2021-02-17 19:44:52,085:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:44:52,086:INFO:Checking exceptions
+2021-02-17 19:44:52,088:INFO:Preloading libraries
+2021-02-17 19:52:30,537:INFO:Initializing predict_model()
+2021-02-17 19:52:30,547:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:52:30,551:INFO:Checking exceptions
+2021-02-17 19:52:30,552:INFO:Preloading libraries
+2021-02-17 19:52:43,781:INFO:Initializing predict_model()
+2021-02-17 19:52:43,782:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:52:43,785:INFO:Checking exceptions
+2021-02-17 19:52:43,786:INFO:Preloading libraries
+2021-02-17 19:53:44,223:INFO:Initializing predict_model()
+2021-02-17 19:53:44,232:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:53:44,241:INFO:Checking exceptions
+2021-02-17 19:53:44,259:INFO:Preloading libraries
+2021-02-17 19:55:42,517:INFO:Initializing predict_model()
+2021-02-17 19:55:42,520:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:55:42,523:INFO:Checking exceptions
+2021-02-17 19:55:42,525:INFO:Preloading libraries
+2021-02-17 19:55:50,227:INFO:Initializing predict_model()
+2021-02-17 19:55:50,230:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:55:50,232:INFO:Checking exceptions
+2021-02-17 19:55:50,233:INFO:Preloading libraries
+2021-02-17 19:59:03,974:INFO:Initializing predict_model()
+2021-02-17 19:59:03,977:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 19:59:03,983:INFO:Checking exceptions
+2021-02-17 19:59:03,984:INFO:Preloading libraries
+2021-02-17 20:03:15,859:INFO:Initializing predict_model()
+2021-02-17 20:03:15,862:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:03:15,865:INFO:Checking exceptions
+2021-02-17 20:03:15,867:INFO:Preloading libraries
+2021-02-17 20:03:58,450:INFO:Initializing predict_model()
+2021-02-17 20:03:58,453:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:03:58,454:INFO:Checking exceptions
+2021-02-17 20:03:58,455:INFO:Preloading libraries
+2021-02-17 20:05:05,732:INFO:Initializing predict_model()
+2021-02-17 20:05:05,734:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:05:05,737:INFO:Checking exceptions
+2021-02-17 20:05:05,738:INFO:Preloading libraries
+2021-02-17 20:06:25,430:INFO:Initializing predict_model()
+2021-02-17 20:06:25,437:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:06:25,439:INFO:Checking exceptions
+2021-02-17 20:06:25,441:INFO:Preloading libraries
+2021-02-17 20:07:02,038:INFO:Initializing predict_model()
+2021-02-17 20:07:02,055:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:07:02,072:INFO:Checking exceptions
+2021-02-17 20:07:02,082:INFO:Preloading libraries
+2021-02-17 20:07:55,129:INFO:Initializing predict_model()
+2021-02-17 20:07:55,133:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:07:55,135:INFO:Checking exceptions
+2021-02-17 20:07:55,136:INFO:Preloading libraries
+2021-02-17 20:08:32,005:INFO:Initializing predict_model()
+2021-02-17 20:08:32,008:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:08:32,009:INFO:Checking exceptions
+2021-02-17 20:08:32,011:INFO:Preloading libraries
+2021-02-17 20:09:55,402:INFO:Initializing predict_model()
+2021-02-17 20:09:55,407:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:09:55,432:INFO:Checking exceptions
+2021-02-17 20:09:55,452:INFO:Preloading libraries
+2021-02-17 20:10:29,501:INFO:Initializing predict_model()
+2021-02-17 20:10:29,505:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:10:29,507:INFO:Checking exceptions
+2021-02-17 20:10:29,508:INFO:Preloading libraries
+2021-02-17 20:12:38,080:INFO:Initializing predict_model()
+2021-02-17 20:12:38,082:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:12:38,083:INFO:Checking exceptions
+2021-02-17 20:12:38,084:INFO:Preloading libraries
+2021-02-17 20:15:57,444:INFO:Initializing predict_model()
+2021-02-17 20:15:57,447:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 20:15:57,457:INFO:Checking exceptions
+2021-02-17 20:15:57,459:INFO:Preloading libraries
+2021-02-17 21:10:19,085:INFO:Initializing predict_model()
+2021-02-17 21:10:19,095:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:10:19,097:INFO:Checking exceptions
+2021-02-17 21:10:19,101:INFO:Preloading libraries
+2021-02-17 21:18:21,483:INFO:Initializing predict_model()
+2021-02-17 21:18:21,485:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:18:21,487:INFO:Checking exceptions
+2021-02-17 21:18:21,488:INFO:Preloading libraries
+2021-02-17 21:19:52,688:INFO:Initializing predict_model()
+2021-02-17 21:19:52,690:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:19:52,691:INFO:Checking exceptions
+2021-02-17 21:19:52,693:INFO:Preloading libraries
+2021-02-17 21:20:08,720:INFO:Initializing predict_model()
+2021-02-17 21:20:08,721:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:20:08,722:INFO:Checking exceptions
+2021-02-17 21:20:08,723:INFO:Preloading libraries
+2021-02-17 21:23:38,977:INFO:Initializing predict_model()
+2021-02-17 21:23:38,979:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:23:38,980:INFO:Checking exceptions
+2021-02-17 21:23:38,981:INFO:Preloading libraries
+2021-02-17 21:25:56,410:INFO:Initializing predict_model()
+2021-02-17 21:25:56,413:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:25:56,414:INFO:Checking exceptions
+2021-02-17 21:25:56,415:INFO:Preloading libraries
+2021-02-17 21:41:05,975:INFO:Initializing predict_model()
+2021-02-17 21:41:05,977:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:41:05,979:INFO:Checking exceptions
+2021-02-17 21:41:05,980:INFO:Preloading libraries
+2021-02-17 21:41:48,969:INFO:Initializing predict_model()
+2021-02-17 21:41:48,971:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:41:48,972:INFO:Checking exceptions
+2021-02-17 21:41:48,973:INFO:Preloading libraries
+2021-02-17 21:41:57,910:INFO:Initializing predict_model()
+2021-02-17 21:41:57,914:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:41:57,915:INFO:Checking exceptions
+2021-02-17 21:41:57,916:INFO:Preloading libraries
+2021-02-17 21:42:40,206:INFO:Initializing predict_model()
+2021-02-17 21:42:40,210:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:42:40,211:INFO:Checking exceptions
+2021-02-17 21:42:40,213:INFO:Preloading libraries
+2021-02-17 21:42:55,081:INFO:Initializing predict_model()
+2021-02-17 21:42:55,084:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-17 21:42:55,085:INFO:Checking exceptions
+2021-02-17 21:42:55,086:INFO:Preloading libraries
+2021-02-18 11:13:42,583:INFO:Initializing predict_model()
+2021-02-18 11:13:42,677:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-18 11:13:42,680:INFO:Checking exceptions
+2021-02-18 11:13:42,681:INFO:Preloading libraries
+2021-02-18 11:14:04,466:INFO:Initializing predict_model()
+2021-02-18 11:14:04,467:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(id_columns=['PassengerId'],
+                                      ml_usecase='classification',
+                                      target='Survived')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=7,
+                                feature_fraction=0.5, learning_rate=0.337,
+                                min_child_samples=35, min_split_gain=0.2,
+                                n_estimators=70, num_leaves=70,
+                                random_state=5928, reg_alpha=0.3,
+                                reg_lambda=0.5)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-02-18 11:14:04,469:INFO:Checking exceptions
+2021-02-18 11:14:04,470:INFO:Preloading libraries
